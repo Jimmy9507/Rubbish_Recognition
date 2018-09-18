@@ -1,0 +1,1704 @@
+﻿Build started 2018/5/18 12:03:58.
+     1>Project "F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\rubbish_detect.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D _WINDOWS /D NDEBUG /D GLOG_NO_ABBREVIATED_SEVERITIES /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\rubbish_detect.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt rubbish_detectDlg.cpp
+         rubbish_detectDlg.cpp
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\glog/logging.h(141): warning C4005: 'GOOGLE_PREDICT_TRUE' : macro redefinition
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\google/protobuf/stubs/common.h(235) : see previous definition of 'GOOGLE_PREDICT_TRUE'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/util/io.hpp(53): warning C4244: 'argument' : conversion from 'uint64_t' to 'int', possible loss of data
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\config.h(23): warning C4305: '=' : truncation from 'double' to 'float'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\config.h(28): warning C4305: '=' : truncation from 'double' to 'float'
+     1>rubbish_detectDlg.cpp(649): warning C4244: '=' : conversion from 'double' to 'uchar', possible loss of data
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(17): warning C4661: 'void caffe::InputLayer<float>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/input_layer.hpp(23) : see declaration of 'caffe::InputLayer<float>::LayerSetUp'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(17): warning C4661: 'void caffe::InputLayer<double>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/input_layer.hpp(23) : see declaration of 'caffe::InputLayer<double>::LayerSetUp'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(18): warning C4661: 'void caffe::InnerProductLayer<float>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/inner_product_layer.hpp(23) : see declaration of 'caffe::InnerProductLayer<float>::LayerSetUp'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(18): warning C4661: 'void caffe::InnerProductLayer<float>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/inner_product_layer.hpp(25) : see declaration of 'caffe::InnerProductLayer<float>::Reshape'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(18): warning C4661: 'void caffe::InnerProductLayer<float>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/inner_product_layer.hpp(33) : see declaration of 'caffe::InnerProductLayer<float>::Forward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(18): warning C4661: 'void caffe::InnerProductLayer<float>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/inner_product_layer.hpp(35) : see declaration of 'caffe::InnerProductLayer<float>::Forward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(18): warning C4661: 'void caffe::InnerProductLayer<float>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/inner_product_layer.hpp(37) : see declaration of 'caffe::InnerProductLayer<float>::Backward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(18): warning C4661: 'void caffe::InnerProductLayer<float>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/inner_product_layer.hpp(39) : see declaration of 'caffe::InnerProductLayer<float>::Backward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(18): warning C4661: 'void caffe::InnerProductLayer<double>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/inner_product_layer.hpp(23) : see declaration of 'caffe::InnerProductLayer<double>::LayerSetUp'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(18): warning C4661: 'void caffe::InnerProductLayer<double>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/inner_product_layer.hpp(25) : see declaration of 'caffe::InnerProductLayer<double>::Reshape'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(18): warning C4661: 'void caffe::InnerProductLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/inner_product_layer.hpp(33) : see declaration of 'caffe::InnerProductLayer<double>::Forward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(18): warning C4661: 'void caffe::InnerProductLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/inner_product_layer.hpp(35) : see declaration of 'caffe::InnerProductLayer<double>::Forward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(18): warning C4661: 'void caffe::InnerProductLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/inner_product_layer.hpp(37) : see declaration of 'caffe::InnerProductLayer<double>::Backward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(18): warning C4661: 'void caffe::InnerProductLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/inner_product_layer.hpp(39) : see declaration of 'caffe::InnerProductLayer<double>::Backward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(19): warning C4661: 'void caffe::DropoutLayer<float>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/dropout_layer.hpp(36) : see declaration of 'caffe::DropoutLayer<float>::LayerSetUp'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(19): warning C4661: 'void caffe::DropoutLayer<float>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/dropout_layer.hpp(38) : see declaration of 'caffe::DropoutLayer<float>::Reshape'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(19): warning C4661: 'void caffe::DropoutLayer<float>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/dropout_layer.hpp(60) : see declaration of 'caffe::DropoutLayer<float>::Forward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(19): warning C4661: 'void caffe::DropoutLayer<float>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/dropout_layer.hpp(62) : see declaration of 'caffe::DropoutLayer<float>::Forward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(19): warning C4661: 'void caffe::DropoutLayer<float>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/dropout_layer.hpp(64) : see declaration of 'caffe::DropoutLayer<float>::Backward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(19): warning C4661: 'void caffe::DropoutLayer<float>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/dropout_layer.hpp(66) : see declaration of 'caffe::DropoutLayer<float>::Backward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(19): warning C4661: 'void caffe::DropoutLayer<double>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/dropout_layer.hpp(36) : see declaration of 'caffe::DropoutLayer<double>::LayerSetUp'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(19): warning C4661: 'void caffe::DropoutLayer<double>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/dropout_layer.hpp(38) : see declaration of 'caffe::DropoutLayer<double>::Reshape'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(19): warning C4661: 'void caffe::DropoutLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/dropout_layer.hpp(60) : see declaration of 'caffe::DropoutLayer<double>::Forward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(19): warning C4661: 'void caffe::DropoutLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/dropout_layer.hpp(62) : see declaration of 'caffe::DropoutLayer<double>::Forward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(19): warning C4661: 'void caffe::DropoutLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/dropout_layer.hpp(64) : see declaration of 'caffe::DropoutLayer<double>::Backward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(19): warning C4661: 'void caffe::DropoutLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/dropout_layer.hpp(66) : see declaration of 'caffe::DropoutLayer<double>::Backward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(20): warning C4661: 'void caffe::ConvolutionLayer<float>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/conv_layer.hpp(70) : see declaration of 'caffe::ConvolutionLayer<float>::Forward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(20): warning C4661: 'void caffe::ConvolutionLayer<float>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/conv_layer.hpp(72) : see declaration of 'caffe::ConvolutionLayer<float>::Forward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(20): warning C4661: 'void caffe::ConvolutionLayer<float>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/conv_layer.hpp(74) : see declaration of 'caffe::ConvolutionLayer<float>::Backward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(20): warning C4661: 'void caffe::ConvolutionLayer<float>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/conv_layer.hpp(76) : see declaration of 'caffe::ConvolutionLayer<float>::Backward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(20): warning C4661: 'void caffe::ConvolutionLayer<float>::compute_output_shape(void)' : no suitable definition provided for explicit template instantiation request
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/conv_layer.hpp(79) : see declaration of 'caffe::ConvolutionLayer<float>::compute_output_shape'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(20): warning C4661: 'void caffe::ConvolutionLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/conv_layer.hpp(70) : see declaration of 'caffe::ConvolutionLayer<double>::Forward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(20): warning C4661: 'void caffe::ConvolutionLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/conv_layer.hpp(72) : see declaration of 'caffe::ConvolutionLayer<double>::Forward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(20): warning C4661: 'void caffe::ConvolutionLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/conv_layer.hpp(74) : see declaration of 'caffe::ConvolutionLayer<double>::Backward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(20): warning C4661: 'void caffe::ConvolutionLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/conv_layer.hpp(76) : see declaration of 'caffe::ConvolutionLayer<double>::Backward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(20): warning C4661: 'void caffe::ConvolutionLayer<double>::compute_output_shape(void)' : no suitable definition provided for explicit template instantiation request
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/conv_layer.hpp(79) : see declaration of 'caffe::ConvolutionLayer<double>::compute_output_shape'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(21): warning C4661: 'void caffe::ROIPoolingLayer<float>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/roi_pooling_layer.hpp(51) : see declaration of 'caffe::ROIPoolingLayer<float>::LayerSetUp'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(21): warning C4661: 'void caffe::ROIPoolingLayer<float>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/roi_pooling_layer.hpp(53) : see declaration of 'caffe::ROIPoolingLayer<float>::Reshape'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(21): warning C4661: 'void caffe::ROIPoolingLayer<float>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/roi_pooling_layer.hpp(64) : see declaration of 'caffe::ROIPoolingLayer<float>::Forward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(21): warning C4661: 'void caffe::ROIPoolingLayer<float>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/roi_pooling_layer.hpp(66) : see declaration of 'caffe::ROIPoolingLayer<float>::Forward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(21): warning C4661: 'void caffe::ROIPoolingLayer<float>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/roi_pooling_layer.hpp(68) : see declaration of 'caffe::ROIPoolingLayer<float>::Backward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(21): warning C4661: 'void caffe::ROIPoolingLayer<float>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/roi_pooling_layer.hpp(70) : see declaration of 'caffe::ROIPoolingLayer<float>::Backward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(21): warning C4661: 'void caffe::ROIPoolingLayer<double>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/roi_pooling_layer.hpp(51) : see declaration of 'caffe::ROIPoolingLayer<double>::LayerSetUp'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(21): warning C4661: 'void caffe::ROIPoolingLayer<double>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/roi_pooling_layer.hpp(53) : see declaration of 'caffe::ROIPoolingLayer<double>::Reshape'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(21): warning C4661: 'void caffe::ROIPoolingLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/roi_pooling_layer.hpp(64) : see declaration of 'caffe::ROIPoolingLayer<double>::Forward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(21): warning C4661: 'void caffe::ROIPoolingLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/roi_pooling_layer.hpp(66) : see declaration of 'caffe::ROIPoolingLayer<double>::Forward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(21): warning C4661: 'void caffe::ROIPoolingLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/roi_pooling_layer.hpp(68) : see declaration of 'caffe::ROIPoolingLayer<double>::Backward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(21): warning C4661: 'void caffe::ROIPoolingLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/roi_pooling_layer.hpp(70) : see declaration of 'caffe::ROIPoolingLayer<double>::Backward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(23): warning C4661: 'void caffe::ReLULayer<float>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/relu_layer.hpp(44) : see declaration of 'caffe::ReLULayer<float>::Forward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(23): warning C4661: 'void caffe::ReLULayer<float>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/relu_layer.hpp(46) : see declaration of 'caffe::ReLULayer<float>::Forward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(23): warning C4661: 'void caffe::ReLULayer<float>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/relu_layer.hpp(77) : see declaration of 'caffe::ReLULayer<float>::Backward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(23): warning C4661: 'void caffe::ReLULayer<float>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/relu_layer.hpp(79) : see declaration of 'caffe::ReLULayer<float>::Backward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(23): warning C4661: 'void caffe::ReLULayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/relu_layer.hpp(44) : see declaration of 'caffe::ReLULayer<double>::Forward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(23): warning C4661: 'void caffe::ReLULayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/relu_layer.hpp(46) : see declaration of 'caffe::ReLULayer<double>::Forward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(23): warning C4661: 'void caffe::ReLULayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/relu_layer.hpp(77) : see declaration of 'caffe::ReLULayer<double>::Backward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(23): warning C4661: 'void caffe::ReLULayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/relu_layer.hpp(79) : see declaration of 'caffe::ReLULayer<double>::Backward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(25): warning C4661: 'void caffe::PoolingLayer<float>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/pooling_layer.hpp(22) : see declaration of 'caffe::PoolingLayer<float>::LayerSetUp'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(25): warning C4661: 'void caffe::PoolingLayer<float>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/pooling_layer.hpp(24) : see declaration of 'caffe::PoolingLayer<float>::Reshape'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(25): warning C4661: 'void caffe::PoolingLayer<float>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/pooling_layer.hpp(38) : see declaration of 'caffe::PoolingLayer<float>::Forward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(25): warning C4661: 'void caffe::PoolingLayer<float>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/pooling_layer.hpp(40) : see declaration of 'caffe::PoolingLayer<float>::Forward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(25): warning C4661: 'void caffe::PoolingLayer<float>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/pooling_layer.hpp(42) : see declaration of 'caffe::PoolingLayer<float>::Backward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(25): warning C4661: 'void caffe::PoolingLayer<float>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/pooling_layer.hpp(44) : see declaration of 'caffe::PoolingLayer<float>::Backward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(25): warning C4661: 'void caffe::PoolingLayer<double>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/pooling_layer.hpp(22) : see declaration of 'caffe::PoolingLayer<double>::LayerSetUp'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(25): warning C4661: 'void caffe::PoolingLayer<double>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/pooling_layer.hpp(24) : see declaration of 'caffe::PoolingLayer<double>::Reshape'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(25): warning C4661: 'void caffe::PoolingLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/pooling_layer.hpp(38) : see declaration of 'caffe::PoolingLayer<double>::Forward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(25): warning C4661: 'void caffe::PoolingLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/pooling_layer.hpp(40) : see declaration of 'caffe::PoolingLayer<double>::Forward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(25): warning C4661: 'void caffe::PoolingLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/pooling_layer.hpp(42) : see declaration of 'caffe::PoolingLayer<double>::Backward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(25): warning C4661: 'void caffe::PoolingLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/pooling_layer.hpp(44) : see declaration of 'caffe::PoolingLayer<double>::Backward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(27): warning C4661: 'void caffe::LRNLayer<float>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(27) : see declaration of 'caffe::LRNLayer<float>::LayerSetUp'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(27): warning C4661: 'void caffe::LRNLayer<float>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(29) : see declaration of 'caffe::LRNLayer<float>::Reshape'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(27): warning C4661: 'void caffe::LRNLayer<float>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(37) : see declaration of 'caffe::LRNLayer<float>::Forward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(27): warning C4661: 'void caffe::LRNLayer<float>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(39) : see declaration of 'caffe::LRNLayer<float>::Forward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(27): warning C4661: 'void caffe::LRNLayer<float>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(41) : see declaration of 'caffe::LRNLayer<float>::Backward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(27): warning C4661: 'void caffe::LRNLayer<float>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(43) : see declaration of 'caffe::LRNLayer<float>::Backward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(27): warning C4661: 'void caffe::LRNLayer<float>::CrossChannelForward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(46) : see declaration of 'caffe::LRNLayer<float>::CrossChannelForward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(27): warning C4661: 'void caffe::LRNLayer<float>::CrossChannelForward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(48) : see declaration of 'caffe::LRNLayer<float>::CrossChannelForward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(27): warning C4661: 'void caffe::LRNLayer<float>::WithinChannelForward(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(50) : see declaration of 'caffe::LRNLayer<float>::WithinChannelForward'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(27): warning C4661: 'void caffe::LRNLayer<float>::CrossChannelBackward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(52) : see declaration of 'caffe::LRNLayer<float>::CrossChannelBackward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(27): warning C4661: 'void caffe::LRNLayer<float>::CrossChannelBackward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(54) : see declaration of 'caffe::LRNLayer<float>::CrossChannelBackward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(27): warning C4661: 'void caffe::LRNLayer<float>::WithinChannelBackward(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(56) : see declaration of 'caffe::LRNLayer<float>::WithinChannelBackward'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(27): warning C4661: 'void caffe::LRNLayer<double>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(27) : see declaration of 'caffe::LRNLayer<double>::LayerSetUp'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(27): warning C4661: 'void caffe::LRNLayer<double>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(29) : see declaration of 'caffe::LRNLayer<double>::Reshape'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(27): warning C4661: 'void caffe::LRNLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(37) : see declaration of 'caffe::LRNLayer<double>::Forward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(27): warning C4661: 'void caffe::LRNLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(39) : see declaration of 'caffe::LRNLayer<double>::Forward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(27): warning C4661: 'void caffe::LRNLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(41) : see declaration of 'caffe::LRNLayer<double>::Backward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(27): warning C4661: 'void caffe::LRNLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(43) : see declaration of 'caffe::LRNLayer<double>::Backward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(27): warning C4661: 'void caffe::LRNLayer<double>::CrossChannelForward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(46) : see declaration of 'caffe::LRNLayer<double>::CrossChannelForward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(27): warning C4661: 'void caffe::LRNLayer<double>::CrossChannelForward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(48) : see declaration of 'caffe::LRNLayer<double>::CrossChannelForward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(27): warning C4661: 'void caffe::LRNLayer<double>::WithinChannelForward(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(50) : see declaration of 'caffe::LRNLayer<double>::WithinChannelForward'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(27): warning C4661: 'void caffe::LRNLayer<double>::CrossChannelBackward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(52) : see declaration of 'caffe::LRNLayer<double>::CrossChannelBackward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(27): warning C4661: 'void caffe::LRNLayer<double>::CrossChannelBackward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(54) : see declaration of 'caffe::LRNLayer<double>::CrossChannelBackward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(27): warning C4661: 'void caffe::LRNLayer<double>::WithinChannelBackward(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(56) : see declaration of 'caffe::LRNLayer<double>::WithinChannelBackward'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(29): warning C4661: 'void caffe::SoftmaxLayer<float>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/softmax_layer.hpp(22) : see declaration of 'caffe::SoftmaxLayer<float>::Reshape'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(29): warning C4661: 'void caffe::SoftmaxLayer<float>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/softmax_layer.hpp(30) : see declaration of 'caffe::SoftmaxLayer<float>::Forward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(29): warning C4661: 'void caffe::SoftmaxLayer<float>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/softmax_layer.hpp(32) : see declaration of 'caffe::SoftmaxLayer<float>::Forward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(29): warning C4661: 'void caffe::SoftmaxLayer<float>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/softmax_layer.hpp(34) : see declaration of 'caffe::SoftmaxLayer<float>::Backward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(29): warning C4661: 'void caffe::SoftmaxLayer<float>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/softmax_layer.hpp(36) : see declaration of 'caffe::SoftmaxLayer<float>::Backward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(29): warning C4661: 'void caffe::SoftmaxLayer<double>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/softmax_layer.hpp(22) : see declaration of 'caffe::SoftmaxLayer<double>::Reshape'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(29): warning C4661: 'void caffe::SoftmaxLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/softmax_layer.hpp(30) : see declaration of 'caffe::SoftmaxLayer<double>::Forward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(29): warning C4661: 'void caffe::SoftmaxLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/softmax_layer.hpp(32) : see declaration of 'caffe::SoftmaxLayer<double>::Forward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(29): warning C4661: 'void caffe::SoftmaxLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/softmax_layer.hpp(34) : see declaration of 'caffe::SoftmaxLayer<double>::Backward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(29): warning C4661: 'void caffe::SoftmaxLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/softmax_layer.hpp(36) : see declaration of 'caffe::SoftmaxLayer<double>::Backward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(31): warning C4661: 'void caffe::ReshapeLayer<float>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/reshape_layer.hpp(23) : see declaration of 'caffe::ReshapeLayer<float>::LayerSetUp'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(31): warning C4661: 'void caffe::ReshapeLayer<float>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/reshape_layer.hpp(25) : see declaration of 'caffe::ReshapeLayer<float>::Reshape'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(31): warning C4661: 'void caffe::ReshapeLayer<double>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/reshape_layer.hpp(23) : see declaration of 'caffe::ReshapeLayer<double>::LayerSetUp'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(31): warning C4661: 'void caffe::ReshapeLayer<double>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/reshape_layer.hpp(25) : see declaration of 'caffe::ReshapeLayer<double>::Reshape'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(22): warning C4661: 'void caffe::ConvolutionLayer<float>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/conv_layer.hpp(70) : see declaration of 'caffe::ConvolutionLayer<float>::Forward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(22): warning C4661: 'void caffe::ConvolutionLayer<float>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/conv_layer.hpp(72) : see declaration of 'caffe::ConvolutionLayer<float>::Forward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(22): warning C4661: 'void caffe::ConvolutionLayer<float>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/conv_layer.hpp(74) : see declaration of 'caffe::ConvolutionLayer<float>::Backward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(22): warning C4661: 'void caffe::ConvolutionLayer<float>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/conv_layer.hpp(76) : see declaration of 'caffe::ConvolutionLayer<float>::Backward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(22): warning C4661: 'void caffe::ConvolutionLayer<float>::compute_output_shape(void)' : no suitable definition provided for explicit template instantiation request
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/conv_layer.hpp(79) : see declaration of 'caffe::ConvolutionLayer<float>::compute_output_shape'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(22): warning C4661: 'void caffe::ConvolutionLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/conv_layer.hpp(70) : see declaration of 'caffe::ConvolutionLayer<double>::Forward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(22): warning C4661: 'void caffe::ConvolutionLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/conv_layer.hpp(72) : see declaration of 'caffe::ConvolutionLayer<double>::Forward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(22): warning C4661: 'void caffe::ConvolutionLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/conv_layer.hpp(74) : see declaration of 'caffe::ConvolutionLayer<double>::Backward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(22): warning C4661: 'void caffe::ConvolutionLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/conv_layer.hpp(76) : see declaration of 'caffe::ConvolutionLayer<double>::Backward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(22): warning C4661: 'void caffe::ConvolutionLayer<double>::compute_output_shape(void)' : no suitable definition provided for explicit template instantiation request
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/conv_layer.hpp(79) : see declaration of 'caffe::ConvolutionLayer<double>::compute_output_shape'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(24): warning C4661: 'void caffe::ReLULayer<float>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/relu_layer.hpp(44) : see declaration of 'caffe::ReLULayer<float>::Forward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(24): warning C4661: 'void caffe::ReLULayer<float>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/relu_layer.hpp(46) : see declaration of 'caffe::ReLULayer<float>::Forward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(24): warning C4661: 'void caffe::ReLULayer<float>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/relu_layer.hpp(77) : see declaration of 'caffe::ReLULayer<float>::Backward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(24): warning C4661: 'void caffe::ReLULayer<float>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/relu_layer.hpp(79) : see declaration of 'caffe::ReLULayer<float>::Backward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(24): warning C4661: 'void caffe::ReLULayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/relu_layer.hpp(44) : see declaration of 'caffe::ReLULayer<double>::Forward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(24): warning C4661: 'void caffe::ReLULayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/relu_layer.hpp(46) : see declaration of 'caffe::ReLULayer<double>::Forward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(24): warning C4661: 'void caffe::ReLULayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/relu_layer.hpp(77) : see declaration of 'caffe::ReLULayer<double>::Backward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(24): warning C4661: 'void caffe::ReLULayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/relu_layer.hpp(79) : see declaration of 'caffe::ReLULayer<double>::Backward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(26): warning C4661: 'void caffe::PoolingLayer<float>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/pooling_layer.hpp(22) : see declaration of 'caffe::PoolingLayer<float>::LayerSetUp'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(26): warning C4661: 'void caffe::PoolingLayer<float>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/pooling_layer.hpp(24) : see declaration of 'caffe::PoolingLayer<float>::Reshape'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(26): warning C4661: 'void caffe::PoolingLayer<float>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/pooling_layer.hpp(38) : see declaration of 'caffe::PoolingLayer<float>::Forward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(26): warning C4661: 'void caffe::PoolingLayer<float>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/pooling_layer.hpp(40) : see declaration of 'caffe::PoolingLayer<float>::Forward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(26): warning C4661: 'void caffe::PoolingLayer<float>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/pooling_layer.hpp(42) : see declaration of 'caffe::PoolingLayer<float>::Backward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(26): warning C4661: 'void caffe::PoolingLayer<float>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/pooling_layer.hpp(44) : see declaration of 'caffe::PoolingLayer<float>::Backward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(26): warning C4661: 'void caffe::PoolingLayer<double>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/pooling_layer.hpp(22) : see declaration of 'caffe::PoolingLayer<double>::LayerSetUp'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(26): warning C4661: 'void caffe::PoolingLayer<double>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/pooling_layer.hpp(24) : see declaration of 'caffe::PoolingLayer<double>::Reshape'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(26): warning C4661: 'void caffe::PoolingLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/pooling_layer.hpp(38) : see declaration of 'caffe::PoolingLayer<double>::Forward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(26): warning C4661: 'void caffe::PoolingLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/pooling_layer.hpp(40) : see declaration of 'caffe::PoolingLayer<double>::Forward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(26): warning C4661: 'void caffe::PoolingLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/pooling_layer.hpp(42) : see declaration of 'caffe::PoolingLayer<double>::Backward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(26): warning C4661: 'void caffe::PoolingLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/pooling_layer.hpp(44) : see declaration of 'caffe::PoolingLayer<double>::Backward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(28): warning C4661: 'void caffe::LRNLayer<float>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(27) : see declaration of 'caffe::LRNLayer<float>::LayerSetUp'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(28): warning C4661: 'void caffe::LRNLayer<float>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(29) : see declaration of 'caffe::LRNLayer<float>::Reshape'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(28): warning C4661: 'void caffe::LRNLayer<float>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(37) : see declaration of 'caffe::LRNLayer<float>::Forward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(28): warning C4661: 'void caffe::LRNLayer<float>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(39) : see declaration of 'caffe::LRNLayer<float>::Forward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(28): warning C4661: 'void caffe::LRNLayer<float>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(41) : see declaration of 'caffe::LRNLayer<float>::Backward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(28): warning C4661: 'void caffe::LRNLayer<float>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(43) : see declaration of 'caffe::LRNLayer<float>::Backward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(28): warning C4661: 'void caffe::LRNLayer<float>::CrossChannelForward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(46) : see declaration of 'caffe::LRNLayer<float>::CrossChannelForward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(28): warning C4661: 'void caffe::LRNLayer<float>::CrossChannelForward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(48) : see declaration of 'caffe::LRNLayer<float>::CrossChannelForward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(28): warning C4661: 'void caffe::LRNLayer<float>::WithinChannelForward(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(50) : see declaration of 'caffe::LRNLayer<float>::WithinChannelForward'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(28): warning C4661: 'void caffe::LRNLayer<float>::CrossChannelBackward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(52) : see declaration of 'caffe::LRNLayer<float>::CrossChannelBackward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(28): warning C4661: 'void caffe::LRNLayer<float>::CrossChannelBackward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(54) : see declaration of 'caffe::LRNLayer<float>::CrossChannelBackward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(28): warning C4661: 'void caffe::LRNLayer<float>::WithinChannelBackward(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(56) : see declaration of 'caffe::LRNLayer<float>::WithinChannelBackward'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(28): warning C4661: 'void caffe::LRNLayer<double>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(27) : see declaration of 'caffe::LRNLayer<double>::LayerSetUp'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(28): warning C4661: 'void caffe::LRNLayer<double>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(29) : see declaration of 'caffe::LRNLayer<double>::Reshape'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(28): warning C4661: 'void caffe::LRNLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(37) : see declaration of 'caffe::LRNLayer<double>::Forward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(28): warning C4661: 'void caffe::LRNLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(39) : see declaration of 'caffe::LRNLayer<double>::Forward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(28): warning C4661: 'void caffe::LRNLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(41) : see declaration of 'caffe::LRNLayer<double>::Backward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(28): warning C4661: 'void caffe::LRNLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(43) : see declaration of 'caffe::LRNLayer<double>::Backward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(28): warning C4661: 'void caffe::LRNLayer<double>::CrossChannelForward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(46) : see declaration of 'caffe::LRNLayer<double>::CrossChannelForward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(28): warning C4661: 'void caffe::LRNLayer<double>::CrossChannelForward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(48) : see declaration of 'caffe::LRNLayer<double>::CrossChannelForward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(28): warning C4661: 'void caffe::LRNLayer<double>::WithinChannelForward(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(50) : see declaration of 'caffe::LRNLayer<double>::WithinChannelForward'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(28): warning C4661: 'void caffe::LRNLayer<double>::CrossChannelBackward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(52) : see declaration of 'caffe::LRNLayer<double>::CrossChannelBackward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(28): warning C4661: 'void caffe::LRNLayer<double>::CrossChannelBackward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(54) : see declaration of 'caffe::LRNLayer<double>::CrossChannelBackward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(28): warning C4661: 'void caffe::LRNLayer<double>::WithinChannelBackward(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(56) : see declaration of 'caffe::LRNLayer<double>::WithinChannelBackward'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(30): warning C4661: 'void caffe::SoftmaxLayer<float>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/softmax_layer.hpp(22) : see declaration of 'caffe::SoftmaxLayer<float>::Reshape'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(30): warning C4661: 'void caffe::SoftmaxLayer<float>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/softmax_layer.hpp(30) : see declaration of 'caffe::SoftmaxLayer<float>::Forward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(30): warning C4661: 'void caffe::SoftmaxLayer<float>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/softmax_layer.hpp(32) : see declaration of 'caffe::SoftmaxLayer<float>::Forward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(30): warning C4661: 'void caffe::SoftmaxLayer<float>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/softmax_layer.hpp(34) : see declaration of 'caffe::SoftmaxLayer<float>::Backward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(30): warning C4661: 'void caffe::SoftmaxLayer<float>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/softmax_layer.hpp(36) : see declaration of 'caffe::SoftmaxLayer<float>::Backward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(30): warning C4661: 'void caffe::SoftmaxLayer<double>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/softmax_layer.hpp(22) : see declaration of 'caffe::SoftmaxLayer<double>::Reshape'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(30): warning C4661: 'void caffe::SoftmaxLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/softmax_layer.hpp(30) : see declaration of 'caffe::SoftmaxLayer<double>::Forward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(30): warning C4661: 'void caffe::SoftmaxLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/softmax_layer.hpp(32) : see declaration of 'caffe::SoftmaxLayer<double>::Forward_gpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(30): warning C4661: 'void caffe::SoftmaxLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/softmax_layer.hpp(34) : see declaration of 'caffe::SoftmaxLayer<double>::Backward_cpu'
+     1>f:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\register.h(30): warning C4661: 'void caffe::SoftmaxLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/softmax_layer.hpp(36) : see declaration of 'caffe::SoftmaxLayer<double>::Backward_gpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::ConvolutionLayer<float>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/conv_layer.hpp(70) : see declaration of 'caffe::ConvolutionLayer<float>::Forward_cpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::ConvolutionLayer<float>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/conv_layer.hpp(72) : see declaration of 'caffe::ConvolutionLayer<float>::Forward_gpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::ConvolutionLayer<float>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/conv_layer.hpp(74) : see declaration of 'caffe::ConvolutionLayer<float>::Backward_cpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::ConvolutionLayer<float>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/conv_layer.hpp(76) : see declaration of 'caffe::ConvolutionLayer<float>::Backward_gpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::ConvolutionLayer<float>::compute_output_shape(void)' : no suitable definition provided for explicit template instantiation request
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/conv_layer.hpp(79) : see declaration of 'caffe::ConvolutionLayer<float>::compute_output_shape'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::ConvolutionLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/conv_layer.hpp(70) : see declaration of 'caffe::ConvolutionLayer<double>::Forward_cpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::ConvolutionLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/conv_layer.hpp(72) : see declaration of 'caffe::ConvolutionLayer<double>::Forward_gpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::ConvolutionLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/conv_layer.hpp(74) : see declaration of 'caffe::ConvolutionLayer<double>::Backward_cpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::ConvolutionLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/conv_layer.hpp(76) : see declaration of 'caffe::ConvolutionLayer<double>::Backward_gpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::ConvolutionLayer<double>::compute_output_shape(void)' : no suitable definition provided for explicit template instantiation request
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/conv_layer.hpp(79) : see declaration of 'caffe::ConvolutionLayer<double>::compute_output_shape'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::ReLULayer<float>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/relu_layer.hpp(44) : see declaration of 'caffe::ReLULayer<float>::Forward_cpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::ReLULayer<float>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/relu_layer.hpp(46) : see declaration of 'caffe::ReLULayer<float>::Forward_gpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::ReLULayer<float>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/relu_layer.hpp(77) : see declaration of 'caffe::ReLULayer<float>::Backward_cpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::ReLULayer<float>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/relu_layer.hpp(79) : see declaration of 'caffe::ReLULayer<float>::Backward_gpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::ReLULayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/relu_layer.hpp(44) : see declaration of 'caffe::ReLULayer<double>::Forward_cpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::ReLULayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/relu_layer.hpp(46) : see declaration of 'caffe::ReLULayer<double>::Forward_gpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::ReLULayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/relu_layer.hpp(77) : see declaration of 'caffe::ReLULayer<double>::Backward_cpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::ReLULayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/relu_layer.hpp(79) : see declaration of 'caffe::ReLULayer<double>::Backward_gpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::PoolingLayer<float>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/pooling_layer.hpp(22) : see declaration of 'caffe::PoolingLayer<float>::LayerSetUp'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::PoolingLayer<float>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/pooling_layer.hpp(24) : see declaration of 'caffe::PoolingLayer<float>::Reshape'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::PoolingLayer<float>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/pooling_layer.hpp(38) : see declaration of 'caffe::PoolingLayer<float>::Forward_cpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::PoolingLayer<float>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/pooling_layer.hpp(40) : see declaration of 'caffe::PoolingLayer<float>::Forward_gpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::PoolingLayer<float>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/pooling_layer.hpp(42) : see declaration of 'caffe::PoolingLayer<float>::Backward_cpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::PoolingLayer<float>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/pooling_layer.hpp(44) : see declaration of 'caffe::PoolingLayer<float>::Backward_gpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::PoolingLayer<double>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/pooling_layer.hpp(22) : see declaration of 'caffe::PoolingLayer<double>::LayerSetUp'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::PoolingLayer<double>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/pooling_layer.hpp(24) : see declaration of 'caffe::PoolingLayer<double>::Reshape'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::PoolingLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/pooling_layer.hpp(38) : see declaration of 'caffe::PoolingLayer<double>::Forward_cpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::PoolingLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/pooling_layer.hpp(40) : see declaration of 'caffe::PoolingLayer<double>::Forward_gpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::PoolingLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/pooling_layer.hpp(42) : see declaration of 'caffe::PoolingLayer<double>::Backward_cpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::PoolingLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/pooling_layer.hpp(44) : see declaration of 'caffe::PoolingLayer<double>::Backward_gpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::LRNLayer<float>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(27) : see declaration of 'caffe::LRNLayer<float>::LayerSetUp'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::LRNLayer<float>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(29) : see declaration of 'caffe::LRNLayer<float>::Reshape'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::LRNLayer<float>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(37) : see declaration of 'caffe::LRNLayer<float>::Forward_cpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::LRNLayer<float>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(39) : see declaration of 'caffe::LRNLayer<float>::Forward_gpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::LRNLayer<float>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(41) : see declaration of 'caffe::LRNLayer<float>::Backward_cpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::LRNLayer<float>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(43) : see declaration of 'caffe::LRNLayer<float>::Backward_gpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::LRNLayer<float>::CrossChannelForward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(46) : see declaration of 'caffe::LRNLayer<float>::CrossChannelForward_cpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::LRNLayer<float>::CrossChannelForward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(48) : see declaration of 'caffe::LRNLayer<float>::CrossChannelForward_gpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::LRNLayer<float>::WithinChannelForward(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(50) : see declaration of 'caffe::LRNLayer<float>::WithinChannelForward'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::LRNLayer<float>::CrossChannelBackward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(52) : see declaration of 'caffe::LRNLayer<float>::CrossChannelBackward_cpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::LRNLayer<float>::CrossChannelBackward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(54) : see declaration of 'caffe::LRNLayer<float>::CrossChannelBackward_gpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::LRNLayer<float>::WithinChannelBackward(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(56) : see declaration of 'caffe::LRNLayer<float>::WithinChannelBackward'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::LRNLayer<double>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(27) : see declaration of 'caffe::LRNLayer<double>::LayerSetUp'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::LRNLayer<double>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(29) : see declaration of 'caffe::LRNLayer<double>::Reshape'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::LRNLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(37) : see declaration of 'caffe::LRNLayer<double>::Forward_cpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::LRNLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(39) : see declaration of 'caffe::LRNLayer<double>::Forward_gpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::LRNLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(41) : see declaration of 'caffe::LRNLayer<double>::Backward_cpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::LRNLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(43) : see declaration of 'caffe::LRNLayer<double>::Backward_gpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::LRNLayer<double>::CrossChannelForward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(46) : see declaration of 'caffe::LRNLayer<double>::CrossChannelForward_cpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::LRNLayer<double>::CrossChannelForward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(48) : see declaration of 'caffe::LRNLayer<double>::CrossChannelForward_gpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::LRNLayer<double>::WithinChannelForward(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(50) : see declaration of 'caffe::LRNLayer<double>::WithinChannelForward'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::LRNLayer<double>::CrossChannelBackward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(52) : see declaration of 'caffe::LRNLayer<double>::CrossChannelBackward_cpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::LRNLayer<double>::CrossChannelBackward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(54) : see declaration of 'caffe::LRNLayer<double>::CrossChannelBackward_gpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::LRNLayer<double>::WithinChannelBackward(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/lrn_layer.hpp(56) : see declaration of 'caffe::LRNLayer<double>::WithinChannelBackward'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::SoftmaxLayer<float>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/softmax_layer.hpp(22) : see declaration of 'caffe::SoftmaxLayer<float>::Reshape'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::SoftmaxLayer<float>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/softmax_layer.hpp(30) : see declaration of 'caffe::SoftmaxLayer<float>::Forward_cpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::SoftmaxLayer<float>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/softmax_layer.hpp(32) : see declaration of 'caffe::SoftmaxLayer<float>::Forward_gpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::SoftmaxLayer<float>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/softmax_layer.hpp(34) : see declaration of 'caffe::SoftmaxLayer<float>::Backward_cpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::SoftmaxLayer<float>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=float
+         ,            _Ty=caffe::Blob<float> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/softmax_layer.hpp(36) : see declaration of 'caffe::SoftmaxLayer<float>::Backward_gpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::SoftmaxLayer<double>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/softmax_layer.hpp(22) : see declaration of 'caffe::SoftmaxLayer<double>::Reshape'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::SoftmaxLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/softmax_layer.hpp(30) : see declaration of 'caffe::SoftmaxLayer<double>::Forward_cpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::SoftmaxLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/softmax_layer.hpp(32) : see declaration of 'caffe::SoftmaxLayer<double>::Forward_gpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::SoftmaxLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/softmax_layer.hpp(34) : see declaration of 'caffe::SoftmaxLayer<double>::Backward_cpu'
+     1>F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\boost/core/checked_delete.hpp(34): warning C4661: 'void caffe::SoftmaxLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\include\caffe/layers/softmax_layer.hpp(36) : see declaration of 'caffe::SoftmaxLayer<double>::Backward_gpu'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\rubbish_detect.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"F:\faster_rcnn\caffe-master\faster_3rdparty\lib" /LIBPATH:"F:\faster_rcnn\caffe-master\Build\x64\Release" /LIBPATH:"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v7.5/lib/x64" opencv_calib3d2410.lib opencv_contrib2410.lib opencv_core2410.lib opencv_features2d2410.lib opencv_flann2410.lib opencv_gpu2410.lib opencv_highgui2410.lib opencv_imgproc2410.lib opencv_legacy2410.lib opencv_ml2410.lib opencv_objdetect2410.lib opencv_ts2410.lib opencv_video2410.lib caffe.lib libcaffe.lib cudart.lib cublas.lib curand.lib gflags.lib libglog.lib libopenblas.dll.a libprotobuf.lib leveldb.lib lmdb.lib hdf5.lib hdf5_hl.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\rubbish_detect.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\rubbish_detect.lib" /MACHINE:X64 x64\Release\rubbish_detect.res
+         x64\Release\Caffe_Net.obj
+         x64\Release\CvvImage.obj
+         x64\Release\Img_Processor.obj
+         x64\Release\rubbish_detect.obj
+         x64\Release\rubbish_detectDlg.obj
+         x64\Release\stdafx.obj
+         Generating code
+         Finished generating code
+     1>libcaffe.lib(common.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libcaffe.lib(common.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libcaffe.lib(net.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libcaffe.lib(net.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libcaffe.lib(blob.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libcaffe.lib(blob.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libcaffe.lib(caffe.pb.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libcaffe.lib(caffe.pb.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libcaffe.lib(input_layer.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libcaffe.lib(input_layer.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libcaffe.lib(inner_product_layer.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libcaffe.lib(inner_product_layer.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libcaffe.lib(dropout_layer.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libcaffe.lib(dropout_layer.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libcaffe.lib(neuron_layer.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libcaffe.lib(neuron_layer.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libcaffe.lib(base_conv_layer.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libcaffe.lib(base_conv_layer.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libcaffe.lib(conv_layer.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libcaffe.lib(conv_layer.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libcaffe.lib(roi_pooling_layer.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libcaffe.lib(roi_pooling_layer.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libcaffe.lib(relu_layer.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libcaffe.lib(relu_layer.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libcaffe.lib(pooling_layer.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libcaffe.lib(pooling_layer.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libcaffe.lib(lrn_layer.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libcaffe.lib(lrn_layer.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libcaffe.lib(softmax_layer.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libcaffe.lib(softmax_layer.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libcaffe.lib(reshape_layer.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libcaffe.lib(reshape_layer.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libcaffe.lib(hdf5.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libcaffe.lib(hdf5.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libcaffe.lib(layer.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libcaffe.lib(layer.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libcaffe.lib(upgrade_proto.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libcaffe.lib(upgrade_proto.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libcaffe.lib(insert_splits.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libcaffe.lib(insert_splits.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libcaffe.lib(math_functions.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libcaffe.lib(math_functions.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libcaffe.lib(syncedmem.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libcaffe.lib(syncedmem.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libcaffe.lib(im2col.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libcaffe.lib(im2col.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libcaffe.lib(power_layer.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libcaffe.lib(power_layer.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libcaffe.lib(split_layer.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libcaffe.lib(split_layer.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libcaffe.lib(eltwise_layer.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libcaffe.lib(eltwise_layer.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libcaffe.lib(io.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libcaffe.lib(io.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libcaffe.lib(conv_layer.cu.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libcaffe.lib(conv_layer.cu.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libcaffe.lib(dropout_layer.cu.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libcaffe.lib(dropout_layer.cu.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libcaffe.lib(eltwise_layer.cu.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libcaffe.lib(eltwise_layer.cu.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libcaffe.lib(inner_product_layer.cu.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libcaffe.lib(inner_product_layer.cu.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libcaffe.lib(lrn_layer.cu.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libcaffe.lib(lrn_layer.cu.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libcaffe.lib(pooling_layer.cu.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libcaffe.lib(pooling_layer.cu.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libcaffe.lib(power_layer.cu.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libcaffe.lib(power_layer.cu.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libcaffe.lib(relu_layer.cu.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libcaffe.lib(relu_layer.cu.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libcaffe.lib(softmax_layer.cu.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libcaffe.lib(softmax_layer.cu.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libcaffe.lib(split_layer.cu.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libcaffe.lib(split_layer.cu.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libcaffe.lib(im2col.cu.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libcaffe.lib(im2col.cu.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libcaffe.lib(math_functions.cu.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libcaffe.lib(math_functions.cu.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libcaffe.lib(roi_pooling_layer.cu.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libcaffe.lib(roi_pooling_layer.cu.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(descriptor.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(descriptor.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(descriptor.pb.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(descriptor.pb.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(descriptor_database.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(descriptor_database.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(dynamic_message.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(dynamic_message.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(extension_set.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(extension_set.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(extension_set_heavy.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(extension_set_heavy.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(generated_message_reflection.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(generated_message_reflection.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(generated_message_util.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(generated_message_util.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(coded_stream.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(coded_stream.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(strtod.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(strtod.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(tokenizer.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(tokenizer.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(zero_copy_stream.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(zero_copy_stream.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(zero_copy_stream_impl.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(zero_copy_stream_impl.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(zero_copy_stream_impl_lite.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(zero_copy_stream_impl_lite.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(message.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(message.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(message_lite.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(message_lite.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(reflection_ops.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(reflection_ops.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(repeated_field.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(repeated_field.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(atomicops_internals_x86_msvc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(atomicops_internals_x86_msvc.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(common.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(common.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(once.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(once.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(stringprintf.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(stringprintf.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(structurally_valid.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(structurally_valid.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(strutil.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(strutil.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(substitute.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(substitute.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(text_format.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(text_format.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(unknown_field_set.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(unknown_field_set.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(wire_format.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(wire_format.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(wire_format_lite.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(wire_format_lite.obj)' or at 'F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\vc120.pdb'; linking object as if no debug info
+         rubbish_detect.vcxproj -> F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\x64\Release\rubbish_detect.exe
+     1>Done Building Project "F:\faster_rcnn\caffe-master\windows\rubbish_detect\rubbish_detect\rubbish_detect\rubbish_detect.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:20.23
